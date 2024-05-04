@@ -13,3 +13,4 @@ You can click the Preview link to take a look at your changes.
 Программа, которая нарисует из звездочек треугольник высотой n
 https://github.com/rina003/rina003/blob/main/Piramida.txt
 
+![image](https://github.com/rina003/rina003/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2004-05-2024%20210128.jpg)
