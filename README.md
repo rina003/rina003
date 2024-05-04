@@ -10,4 +10,6 @@
 rina003/rina003 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-Программа, которая нарисует из звездочек треугольник высотой n.
+Программа, которая нарисует из звездочек треугольник высотой n
+https://github.com/rina003/rina003/blob/main/%D0%9F%D0%B8%D1%80%D0%B0%D0%BC%D0%B8%D0%B4%D0%B0.txt
+
