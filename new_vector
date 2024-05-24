@@ -1,0 +1,27 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+// Функция увеличения каждого элемента вектора на значение n
+void VectorPlus(vector<int> &vec, int n) {
+    for (int &element : vec) {
+        element += n;
+    }
+}
+int main() {
+    vector<int> newVector;
+    int n;
+    cout << "Введите значения для вектора (для окончания ввода введите 0):" << endl;
+    int input;
+    while (cin >> input && input != 0) {
+        newVector.push_back(input);
+    }
+    cout << "Введите значение n: ";
+    cin >> n;
+    VectorPlus(newVector, n);
+    cout << "Измененный вектор после увеличения на " << n << ":" << endl;
+    for (int element : newVector) {
+        cout << element << " ";
+    }
+    cout << endl;
+    return 0;
+}
