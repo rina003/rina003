@@ -1,10 +1,1 @@
-#include <iostream>
-#include <vector>
-using namespace std;
-// Функция увеличения каждого элемента вектора на значение n
-void VectorPlus(vector<int> &vec, int n) {
-    for (int &element : vec) {
-        element += n;
-    }
-}
 
