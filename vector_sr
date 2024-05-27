@@ -1,0 +1,39 @@
+// vector_sr.cpp
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!\n";
+}
+
+// Header.h
+#pragma once
+#include <iostream>
+#include <vector>
+
+std::vector<int> increaseVector(std::vector<int> vec, int n);
+
+// Header.cpp
+#include "Header.h"
+#include <iostream>
+#include <vector>
+
+std::vector<int> increaseVector(std::vector<int> vec, int n) {
+    for (int i = 0; i < vec.size(); i++) {
+        vec[i] += n;
+    }
+    return vec;
+}
+
+// test.cpp
+#include "pch.h"
+#include "C:\Users\ostek\source\repos\vector_sr\vector_sr\Header.cpp"
+
+TEST(increaseVector, Test1) {
+    std::vector<int> input = { 1, 2, 3, 4 };
+    std::vector<int> expected = { 6, 7, 8, 9 };
+    int n = 5;
+
+    std::vector<int> result = increaseVector(input, n);
+
+    ASSERT_EQ(result, expected);
+}
